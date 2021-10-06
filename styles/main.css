@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 90%;
+    padding: 10px 0;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#aqua-header {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: lightblue;
+    border: 1px solid red;
+}
+
+.aqua-header-nav {
+    width: 500px;
+    border: 1px solid red;
+}
+
+.aqua-header-nav ul {
+    display: flex;
+    border: 1px solid black;
+    list-style: none;
+    margin: 0;
+    padding: 20;
+}
+
+.aqua-header-nav li {
+    flex: 1;
+    margin: 0 5px;
+}
