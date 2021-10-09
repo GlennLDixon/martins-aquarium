@@ -30,6 +30,10 @@ a:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
+.container {
+    display: flex;
+}
+
 #aqua-header {
     display: flex;
     justify-content: space-between;
@@ -54,4 +58,43 @@ a:hover {
 .aqua-header-nav li {
     flex: 1;
     margin: 0 5px;
+}
+
+/* Aqua Fish Collection */
+
+
+.aqua-collection {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 250px;
+}
+
+.aqua-fish {
+    margin-top: 50px;
+    border: 1px solid;
+}
+
+.aqua-fish img {
+    width: 250;
+    height: 140px;
+}
+
+/* Aside */
+.aside {
+    width: 500px;
+    border: 1px solid;
+    height: 400px;
+    margin: 500px 50px 0 0;
+    border-radius: 30px;
+}
+
+.aside h4 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.aside ol {
+    margin-top: 100px;
 }
